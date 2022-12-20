@@ -1,5 +1,5 @@
 # Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
-import json #by ctzfamioy
+import json #by nobydayan
 import os
 
 ARQ_API_URL = "https://arq.hamker.in"
@@ -20,11 +20,11 @@ class Config(object):
     API_ID = 12345   # integer value, dont use ""
     API_HASH = "awew"
     TOKEN = "wow"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    SQLALCHEMY_DATABASE_URI = "" #Use Your ElephantSQL
-    OWNER_ID = 1491497760  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "nandhaxd"
-    SUPPORT_CHAT = 'vegetasupport'  #Your own group for support, do not add the @
-    UPDATES_CHANNEL = 'vegetaUpdates' #Your own channel for Updates of bot, Do not add @
+    SQLALCHEMY_DATABASE_URI = "postgres://pnbwtiqg:BiqKMLM5pTgOxnw5CS9SFSxDDkt5ZvDE@hansken.db.elephantsql.com/pnbwtiqg" #Use Your ElephantSQL
+    OWNER_ID = 5115485603  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "nobygod"
+    SUPPORT_CHAT = 'ndbotsupport'  #Your own group for support, do not add the @
+    UPDATES_CHANNEL = '' #Your own channel for Updates of bot, Do not add @
     JOIN_LOGGER = -1001543354286  #Prints any new group the bot is added to, prints just the name and ID.
     REM_BG_API_KEY = "dxsh728mZMDmj4ijSZCNPZig"
     EVENT_LOGS = -1001543354286  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
